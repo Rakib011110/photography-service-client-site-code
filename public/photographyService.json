@@ -1,0 +1,80 @@
+[
+  {
+    "service_id": "01",
+    "title": "Brithday photography",
+    "img": "https://d3btuubl2bvm9d.cloudfront.net/images/2c9f84875c3445c3015c3879f0700022/1573140035223-mid.jpg",
+    "price": "3000.00",
+    "description": ". The more pictures you see, the better you are as a photographer.” “I am not interested in shooting new things – I am interested to see things new.” “Photography to me is catching a moment which is passing, and which is true.” “Photography is the story I fail to put into words",
+    "facility": [
+      {
+        "name": "Brithday photography",
+        "details": "The more pictures you see, the better you are as a photographer.” “I am not interested in shooting new things – I am interested to see things new.” “Photography to me is catching a moment which is passing, and which is true.” “Photography is the story I fail to put into words"
+      }
+    ]
+  },
+  {
+    "service_id": "02",
+    "title": "Weeding Photography",
+    "img": "https://media.istockphoto.com/id/1056679966/photo/wedding-photographer-takes-pictures-of-bride-and-groom.jpg?b=1&s=170667a&w=0&k=20&c=u7Ti8zgH-2x4inWpgmY6NGouwGR0uPpOtL_ZQgua7oE=",
+    "price": "2000.00",
+    "description": "As a photographer that primarily works with people, I love to build relationships with those that I photograph. I always tell my clients before they book with me that choosing a wedding photographer is like choosing a friend. You want someone that helps you relax, and feel comfortable in front of the camera. By being someone that my bride and groom feel comfortable with personally, it helps them relax and for me to get the best possible pictures of them.",
+    "facility": [
+      {
+        "name": "Photography",
+        "details": "As a photographer that primarily works with people, I love to build relationships with those that I photograph. I always tell my clients before they book with me that choosing a wedding photographer is like choosing a friend. You want someone that helps you relax, and feel comfortable in front of the camera. By being someone that my bride and groom feel comfortable with personally, it helps them relax and for me to get the best possible pictures of them."
+      }
+    ]
+  },
+  {
+    "service_id": "03",
+    "title": "Sports Photography",
+    "img": "https://media.istockphoto.com/id/1295248329/photo/beautiful-young-black-boy-training-on-the-football-pitch.jpg?b=1&s=170667a&w=0&k=20&c=RCX0lL6TxFxv5UA0rqAijHLhdloXRc7jCkj7qAuQKUU=",
+    "price": "4000.00",
+    "description": " I Am A Professional Sports Photographer i can shoot each team in all your age groups and take action shots for every player.Because we know exactly the type of images you and your players want,",
+    "facility": [
+      {
+        "name": "Photography",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae"
+      }
+    ]
+  },
+  {
+    "service_id": "04",
+    "title": " Outdoor Photography",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkfKp7X4sd77TG5rc1OGdh5l4wrP55WbCHcsVsQldzTyXV00WC2oF4IuspwBlKs037Qz4&usqp=CAU",
+    "price": "1500.00",
+    "description": "Outdoor Photographer is the ultimate guide to nature, wildlife, travel and adventure sports photography, featuring the work of renown photographers",
+    "facility": [
+      {
+        "name": "Photography",
+        "details": "Outdoor Photographer is the ultimate guide to nature, wildlife, travel and adventure sports photography, featuring the work of renown photographers"
+      }
+    ]
+  },
+  {
+    "service_id": "05",
+    "title": "Student photograpy",
+    "img": "https://images.pexels.com/photos/3762803/pexels-photo-3762803.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": "5000.00",
+    "description": " I am absolutely humbled to have won the Sony World Photography Awards Student Competition, especially while being surrounded by so many talented",
+    "facility": [
+      {
+        "name": "student photograpy",
+        "details": " I am absolutely humbled to have won the Sony World Photography Awards Student Competition, especially while being surrounded by so many talented "
+      }
+    ]
+  },
+  {
+    "service_id": "06",
+    "title": "Anniversary photograpy",
+    "img": "https://californiaweddingday.com/sites/default/files/CWD/online/other/oneyear/2019-01-29_0089.jpg",
+    "price": "2000.00",
+    "description": "I have had a lot of inquiries lately for an Anniversary Session and I am 100% ... have the date nights, Take the pictures, hire a photographe",
+    "facility": [
+      {
+        "name": "anniversary photograpy",
+        "details": "I have had a lot of inquiries lately for an Anniversary Session and I am 100% ... have the date nights, Take the pictures, hire a photographe "
+      }
+    ]
+  }
+]
