@@ -66,7 +66,7 @@ const Update = () => {
 
                     <textarea name='reviewMassage' className="textarea w-full mb-5 textarea-info" placeholder="Your Review" defaultValue={update.reviewMassage}></textarea>
 
-                    <button className="btn btn-ghost btn-xs"><Link > Update</Link> </button>
+                    <button className="btn btn-ghost btn-xs"><Link >Edite</Link> </button>
 
                 </div>
 
