@@ -29,8 +29,6 @@ const Card = ({ service }) => {
                 <div className="card-actions mt-5 mb-6">
                     <button className="btn btn-info"> <Link to={`/services/${_id}`}> See Details</Link></button>
 
-                    {/* <button className="btn btn-info" > <Link to="/reviwsdata">review </Link> </button> */}
-                    {/* <button className="btn btn-info"> <Link to={`/review/${_id}`}> add review</Link> </button> */}
 
                 </div>
             </div>
