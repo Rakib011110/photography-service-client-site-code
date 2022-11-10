@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { json } from 'react-router-dom';
+// import { json } from 'react-router-dom';
 import { AuthContext } from '../Context/AuthProvider';
-import DetailsReview from './DetailsReview';
+// import DetailsReview from './DetailsReview';
 import ReviewTable from './ReviewTable';
 
 const AllReviewItems = () => {
