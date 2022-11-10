@@ -1,7 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layouts/Main";
-import AllReviewItems from "../../PhotoGrapyService/AllReviewItems";
-import DetailsReview from "../../PhotoGrapyService/DetailsReview";
 import Review from "../../PhotoGrapyService/Review";
 import Service from "../../PhotoGrapyService/Service";
 import ServiceDetails from "../../PhotoGrapyService/ServiceDetails";
