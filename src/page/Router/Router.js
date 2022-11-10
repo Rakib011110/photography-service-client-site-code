@@ -38,7 +38,7 @@ const router = createBrowserRouter([
 
             {
                 path: "/services",
-                element: <Service></Service>
+                element: <PrivetRouter> <Service></Service></PrivetRouter>
             },
 
             {
