@@ -7,7 +7,7 @@ const PrivetRouter = ({ children }) => {
     const location = useLocation()
 
     if (loading) {
-        return <h3 className='text-4xl'> Loading </h3>
+        return <h3 className='text-4xl'> Loading..... </h3>
 
 
     }
