@@ -4,7 +4,7 @@ import { AuthContext } from '../Context/AuthProvider';
 import AllReviewItems from './AllReviewItems';
 
 const Review = () => {
-    const { title, _id, img, name } = useLoaderData()
+    const { title, _id, } = useLoaderData()
     const { user } = useContext(AuthContext)
 
     const hanleReview = (e) => {
