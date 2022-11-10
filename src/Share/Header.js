@@ -33,7 +33,6 @@ const Header = () => {
 
                 <h3 className='mx-4 text-2xl btn btn-square'>  <Link to="/">Ariyan's Photography </Link> </h3>
 
-                {/* <img src="https://img.indiefolio.com/fit-in/1100x0/filters:format(webp):fill(transparent)/project/body/6a4af939350999353958515025862126.png" alt="" srcset="" /> */}
             </div>
             <div className="navbar-end">
 
