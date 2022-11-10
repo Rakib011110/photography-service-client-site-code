@@ -3,12 +3,14 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Context/AuthProvider';
 
 const Login = () => {
-    const { login } = useContext(AuthContext)
+    const { login, googleSignIn } = useContext(AuthContext)
 
-    const location = useLocation()
-    const navigate = useNavigate()
+    const location = useLocation();
 
-    const from = location.state?.form?.pathname || "/"
+    const navigate = useNavigate();
+
+
+    const from = location.state?.from?.pathname || '/';
 
 
     const handleLogin = (e) => {
@@ -21,9 +23,24 @@ const Login = () => {
             .then(result => {
                 const user = result.user
                 console.log(user)
-                navigate(from, { replace: true })
+                navigate(from, { replace: true });
             })
             .then(err => console.error(err))
+
+    }
+
+
+
+
+    const handleGoogleSignin = () => {
+        googleSignIn()
+            .then(result => {
+                const user = result.user
+                console.log(user);
+                navigate(from, { replace: true })
+            })
+            .catch(err => console.error(err))
+
 
     }
 
@@ -58,10 +75,18 @@ const Login = () => {
                         <div className="form-control mt-6">
                             <button className="btn btn-info">Login</button>
                         </div>
+                        <div>
+
+                            <button onClick={handleGoogleSignin} className='btn btn-circle'>Google</button>
+
+                        </div>
                     </form>
+
+
 
                     <p className='mb-5'> Dont't Have Any Acccount Please  <Link className=' text-info font-bold ' to="/register">  Register</Link>   </p>
                 </div>
+
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layouts/Main";
 import AllReviewItems from "../../PhotoGrapyService/AllReviewItems";
+import DetailsReview from "../../PhotoGrapyService/DetailsReview";
 import Review from "../../PhotoGrapyService/Review";
 import Service from "../../PhotoGrapyService/Service";
 import ServiceDetails from "../../PhotoGrapyService/ServiceDetails";
@@ -8,6 +9,7 @@ import Update from "../../PhotoGrapyService/Update";
 import Blog from "../Blog";
 import Home from "../Home";
 import Login from "./Login";
+import PrivetRouter from "./PrivetRouter";
 import Registration from "./Registration";
 
 const router = createBrowserRouter([
@@ -43,7 +45,7 @@ const router = createBrowserRouter([
 
             {
                 path: "/services/:id",
-                element: <ServiceDetails />,
+                element: <PrivetRouter><ServiceDetails />  </PrivetRouter>,
                 loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
             },
             {
@@ -53,12 +55,19 @@ const router = createBrowserRouter([
             },
             {
                 path: "/reviwsdata",
-                element: <AllReviewItems />
+                element: <PrivetRouter></PrivetRouter>
             },
             {
                 path: "/update/:id",
-                element: <Update />
-            }
+                element: <Update />,
+                loader: ({ params }) => fetch(`http://localhost:5000/reviwsdata/${params.id}`)
+            },
+
+            // {
+            //     path: '/serviceData',
+            //     element: <DetailsReview></DetailsReview>
+            // }
+
 
 
         ]

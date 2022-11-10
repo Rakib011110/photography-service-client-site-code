@@ -20,23 +20,6 @@ const ReviewTable = ({ review, handleDelete }) => {
 
 
 
-    // const handleDelete = id => {
-    //     const proceed = window.confirm('are you sure');
-    //     if (proceed) {
-    //         fetch(`http://localhost:5000/reviews/${_id}`, {
-    //             method: 'DELETE'
-    //         })
-    //             .then(res => res.json())
-    //             .then(data => {
-    //                 console.log(data);
-    //                 if (data.deletedCount > 0) {
-
-    //                 }
-    //             })
-    //     }
-    // }
-
-
     const handleUdpate = (id) => {
         fetch(`http://localhost:5000/services/${id}`, {
             method: "PATCH",
@@ -67,7 +50,7 @@ const ReviewTable = ({ review, handleDelete }) => {
                             {
                                 addedreview?.img &&
 
-                                < img src={addedreview.img} alt="Avatar Tailwind CSS Component" />}
+                                < img src={addedreview.img} alt="" />}
                         </div>
                     </div>
                     <div>
