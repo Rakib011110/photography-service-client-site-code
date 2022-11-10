@@ -19,7 +19,7 @@ const Update = () => {
         console.log(email, name, reviewMassage)
 
 
-        fetch(`http://localhost:5000/reviwsdata/${update._id}`, {
+        fetch(`https://assignment-11-server-site-mu.vercel.app/reviwsdata/${update._id}`, {
 
 
             method: "PUT",

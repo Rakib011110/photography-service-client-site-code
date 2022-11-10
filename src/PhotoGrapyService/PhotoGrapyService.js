@@ -7,7 +7,7 @@ const PhotoGrapyService = () => {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000')
+        fetch('https://assignment-11-server-site-mu.vercel.app')
             .then(res => res.json())
             .then(data => setServices(data))
 
@@ -16,7 +16,7 @@ const PhotoGrapyService = () => {
 
     return (
         <div>
-            <h1 className='text-black text-3xl p-6 m-10 shadow-xl bg-white rounded-lg'> See My All PhotoGrapy Service {services.length} </h1>
+            <h1 className='text-black text-3xl p-6 m-10 shadow-xl bg-white rounded-lg'> See My PhotoGrapy Service  </h1>
 
 
 

@@ -44,12 +44,12 @@ const router = createBrowserRouter([
             {
                 path: "/services/:id",
                 element: <PrivetRouter><ServiceDetails />  </PrivetRouter>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://assignment-11-server-site-mu.vercel.app/services/${params.id}`)
             },
             {
                 path: "/review/:id",
                 element: <Review></Review>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://assignment-11-server-site-mu.vercel.app/services/${params.id}`)
             },
             {
                 path: "/reviwsdata",
@@ -58,7 +58,7 @@ const router = createBrowserRouter([
             {
                 path: "/update/:id",
                 element: <Update />,
-                loader: ({ params }) => fetch(`http://localhost:5000/reviwsdata/${params.id}`)
+                loader: ({ params }) => fetch(`https://assignment-11-server-site-mu.vercel.app/reviwsdata/${params.id}`)
             },
 
             // {

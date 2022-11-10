@@ -12,7 +12,7 @@ const HeaderBanner = () => {
             next: 2
         },
         {
-            image: "https://images.squarespace-cdn.com/content/v1/5425cf54e4b04619065ee522/1594504264912-9XSRQHYH7HW8YTC9GP8C/DSCF0715-Pano.jpg?format=2500w",
+            image: "https://www.gannett-cdn.com/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG?crop=1999,1125,x0,y78&width=1999&height=1125&format=pjpg&auto=webp",
             prev: 1,
             id: 2,
             next: 3
@@ -20,7 +20,7 @@ const HeaderBanner = () => {
 
 
         {
-            image: "https://images.squarespace-cdn.com/content/v1/5425cf54e4b04619065ee522/1594504264912-9XSRQHYH7HW8YTC9GP8C/DSCF0715-Pano.jpg?format=2500w",
+            image: "https://www.newzealand.com/assets/Tourism-NZ/Auckland/1a74e077c0/img-1536865193-7337-8583-61F24BC0-9C5E-2C98-61AB1E16F77A7F10__aWxvdmVrZWxseQo_CropResizeWzEyMDAsNjMwLDc1LCJqcGciXQ.jpg",
             prev: 2,
             id: 3,
             next: 1
@@ -31,7 +31,7 @@ const HeaderBanner = () => {
 
 
     return (
-        <div className="carousel w-full py-10">
+        <div className="carousel w-full mt-20 ">
             {
 
                 bannerData.map(slide => <Slider slide={slide}> </Slider>)

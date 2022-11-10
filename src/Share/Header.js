@@ -24,7 +24,7 @@ const Header = () => {
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <Link to="/" > <li>Home </li></Link>
                         <Link to='/blog'> <li>Blog </li></Link>
-                        <Link to='/reviwsdata'> <li> Services </li></Link>
+                        <Link to='/services'> <li> Services </li></Link>
 
                     </ul>
                 </div>

@@ -10,7 +10,7 @@ const ReviewTable = ({ review, handleDelete }) => {
 
     useEffect(() => {
 
-        fetch(`http://localhost:5000/services/${service}`)
+        fetch(`https://assignment-11-server-site-mu.vercel.app/services/${service}`)
             .then(res => res.json())
             .then(data => setAddedRewivew(data))
 
@@ -21,7 +21,7 @@ const ReviewTable = ({ review, handleDelete }) => {
 
 
     const handleUdpate = (id) => {
-        fetch(`http://localhost:5000/services/${id}`, {
+        fetch(`https://assignment-11-server-site-mu.vercel.app/services/${id}`, {
             method: "PATCH",
             headers: {
                 'content-type': "application/json"

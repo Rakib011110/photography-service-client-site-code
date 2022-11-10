@@ -12,7 +12,7 @@ const AllReviewItems = () => {
 
     useEffect(() => {
 
-        fetch(`http://localhost:5000/reviwsdata?email=${user?.email}`)
+        fetch(`https://assignment-11-server-site-mu.vercel.app/reviwsdata?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setReview(data))
 
@@ -24,7 +24,7 @@ const AllReviewItems = () => {
     const handleDelete = id => {
         const proceed = window.confirm('are you sure');
         if (proceed) {
-            fetch(`http://localhost:5000/reviews/${id}`, {
+            fetch(`https://assignment-11-server-site-mu.vercel.app/reviews/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

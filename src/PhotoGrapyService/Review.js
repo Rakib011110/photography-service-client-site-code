@@ -2,6 +2,10 @@ import React, { useContext } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../Context/AuthProvider';
 import AllReviewItems from './AllReviewItems';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 const Review = () => {
     const { title, _id, } = useLoaderData()
@@ -28,7 +32,7 @@ const Review = () => {
 
         }
 
-        fetch("http://localhost:5000/reviews", {
+        fetch("https://assignment-11-server-site-mu.vercel.app/reviews", {
 
             method: "POST",
             headers: {
@@ -41,7 +45,7 @@ const Review = () => {
             .then(data => {
                 console.log(data)
                 if (data.acknowledged) {
-                    alert('review Succesfully')
+                    toast("Review Secces!")
                     form.reset()
 
                 }
@@ -78,7 +82,7 @@ const Review = () => {
 
 
                                 < button className="btn mb-3  btn-circle">Submit</button>
-
+                                <ToastContainer />
                             </>
                             :
 
