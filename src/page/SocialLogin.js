@@ -19,7 +19,7 @@ const SocialLogin = () => {
         <div>
             <p className='text-center'><small>Social Login</small></p>
             <p className='text-center'>
-                <button onClick={handleGoogleSIgnIn} className='btn btn-ghost'>Google</button>
+                <button onClick={handleGoogleSIgnIn} className='btn btn-ghost'>Google </button>
             </p>
         </div>
     );
