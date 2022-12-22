@@ -17,8 +17,10 @@ const Service = () => {
     }, [])
 
 
+
+
     return (
-        <div>
+        <div data-aos="fade-up">
 
             <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3    m-10 '>
 

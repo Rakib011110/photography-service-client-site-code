@@ -3,6 +3,8 @@ import React from 'react';
 const Slider = ({ slide }) => {
     const { image, id, prev, next } = slide;
 
+    
+
     return (
         <div id={`slide${id}`} className="carousel-item relative w-full">
             <div className='carousel-img'>

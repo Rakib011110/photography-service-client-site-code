@@ -15,7 +15,7 @@ const PhotoGrapyService = () => {
 
 
     return (
-        <div>
+        <div data-aos="flip-up">
             <h1 className='text-black text-3xl p-6 m-10 shadow-xl bg-white rounded-lg'> See My PhotoGrapy Service  </h1>
 
 
